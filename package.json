@@ -1,0 +1,21 @@
+{
+  "name": "dragable-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "npm install",
+    "build": "npm run init; webpack",
+    "watch": "npm run init; webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^5.2.17",
+    "babel-loader": "^5.0.0",
+    "react": "^0.13.3",
+    "react-draggable": "^0.7.2",
+    "webpack": "^1.8.11"
+  }
+}
